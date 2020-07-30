@@ -12,6 +12,12 @@
   background-position: center;
   position: relative;
 }
+
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+}
+
 .hero-form button {
   color: #fce138;
   background-color: #024e76;
