@@ -8,7 +8,9 @@
 .hero {
   background-image: url("../assets/images/hero-bg.jpg");
   background-size: cover;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -123,14 +125,12 @@
 .hero-form {
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
   color: #024e76;
   border-style: solid;
   border-width: 3px;
   border-color: #024e76;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
+  width: 40%;
+  margin 3.5%;
 }
 
 .hero-form h3 {
@@ -311,6 +311,8 @@ footer {
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer h2 {
