@@ -7,10 +7,26 @@
 /* Hero Style Start*/
 .hero {
   background-image: url("../assets/images/hero-bg.jpg");
-  height: 600px;
   background-size: cover;
-  background-position: center;
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 
 /* these two colors will override the ones above in .hero */
