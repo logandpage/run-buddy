@@ -303,6 +303,7 @@ header nav ul li a:hover {
   position: absolute;
   left: -26px;
   top: 1px;
+  transform: rotate(-58deg);
 }
 
 .checkbox-wrapper label::before, .radio-wrapper label::before {
